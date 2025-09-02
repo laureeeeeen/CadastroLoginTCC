@@ -1,0 +1,87 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  box-sizing: border-box;
+
+}
+
+.container-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title {
+  display: flex;
+  font-size: 35px;
+  align-self: flex-start;
+  color: #393939;
+  margin-bottom: 60px;
+}
+
+.login-box {
+  background-color: #8cd0db;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  outline: none; 
+  box-shadow: none; 
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #e85700;
+}
+
+
+button {
+  padding: 12px;
+  background-color: #e85700;
+  color: #393939;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #f16610;
+}
+
+.cadastro-link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #393939;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.cadastro-link:hover {
+  color: #393939;
+}
